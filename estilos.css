@@ -1,0 +1,172 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+.encabezado {
+  color: aliceblue;
+  background-color: darkslategray;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+}
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.encabezado-nav-ul {
+  list-style: none;
+  padding: 0;
+  background-color: cornflowerblue;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.encabezado-nav-ul-li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 20px;
+  display: block;
+  font-size: 25px;
+}
+
+.encabezado-nav-ul-li a:hover {
+  background-color: darkslateblue;
+}
+.carga {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.carga-contenedor {
+  background-color: dimgray;
+  width: 550px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carga_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.carga-contenedor_1 {
+  background-color: dimgray;
+  width: 550px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+.carga-form {
+  display: flex;
+  flex-direction: column;
+}
+.imputs {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.imputs:active {
+  border: solid 2px black;
+}
+.boton {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: cornflowerblue;
+  margin-top: 10px;
+}
+.boton:hover {
+  background-color: aliceblue;
+}
+
+.ok {
+  margin-top: 50px;
+  text-align: center;
+  max-width: 600px;
+  background-color: green;
+  color: white;
+}
+.no{
+  margin-top: 50px;
+  text-align: center;
+  max-width: 600px;
+  background-color:red;
+  color: white;
+}
+.foto {
+  width: 300px;
+  padding: 20px;
+  background-color: darkgray;
+}
+
+.caja-receta {
+  background-color: cadetblue;
+  width: 400px;
+  height: 450px;
+  font-size: 20px;
+  color: white;
+  border: solid 2px black;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.ver_recetas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+.boton2 {
+  width: 80px;
+  height: 30px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: moccasin;
+}
+
+.comentarios_contenedor {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carga-form{
+    width: 500px;
+}
+.form_nombre{
+    height: 40px;
+    margin-bottom: 10px;
+}
+.caja_contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.caja_comentarios {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  color: black;
+  background-color: aliceblue;
+  overflow: scroll;
+  margin: 50px;
+}
+.comentario{
+  border: solid 2px black;
+  background-color: burlywood;
+}
